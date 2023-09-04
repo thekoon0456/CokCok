@@ -23,7 +23,7 @@ struct HomeRecommendCard: View {
         VStack(alignment: .leading) {
             Group {
                 VStack(alignment: .leading) {
-                    Text("\(cocktail.cocktailName)").modifier(TitleModifier()).padding(.top, 10)
+                    Text("\(cocktail.cocktailIcon)").modifier(TitleModifier()).padding(.top, 10)
                     FlowLayout(mode: .scrollable, items: cocktailHashTags, itemSpacing: 3) {
                         Text("\($0)")
                             .foregroundColor(.black)
@@ -35,15 +35,18 @@ struct HomeRecommendCard: View {
                             .cornerRadius(10)
                     }.padding(-3).padding(.bottom, 15)
                     HStack(alignment: .top) {
-                        AsyncImage(url: URL(string: cocktail.cocktailImageUrl)) { image in
-                            image
-                                .resizable()
-                                .aspectRatio(1, contentMode: .fit)
-                        } placeholder: {
-                            ProgressView()
-                        }
-                        .frame(width: 76, height: 76)
-                        .cornerRadius(10)
+                        //                        AsyncImage(url: URL(string: cocktail.cocktailImageUrl)) { image in
+                        //                            image
+                        //                                .resizable()
+                        //                                .aspectRatio(1, contentMode: .fit)
+                        //                        } placeholder: {
+                        //                            ProgressView()
+                        //                        }
+                        Image(cocktail.cocktailIcon)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 76, height: 76)
+                            .cornerRadius(10)
                         Text("\(cocktail.description)")
                             .modifier(BodyTextModifier())
                     }.padding(.bottom, 5)
@@ -52,7 +55,7 @@ struct HomeRecommendCard: View {
             .padding()
         }
         .foregroundColor(.white)
-//        .frame(height: 224)
+        //        .frame(height: 224)
         .border(.clear, width: 1)
         .background(Color(.systemGray4))
         .cornerRadius(7)

@@ -32,16 +32,11 @@ struct CocktailDetailView: View {
                 .font(.title)
                 .bold()
  
-            AsyncImage(url: URL(string: cocktail.cocktailImageUrl)) { image in
-                image
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: UIScreen.screenWidth - horizontalSpace*2, height: 300) // 양쪽 여백 27
-                    .clipped()
-                    .cornerRadius(25)
-            } placeholder: {
-                ProgressView()
-            }.frame(width: UIScreen.screenWidth - horizontalSpace*2, height: 300) // 양쪽 여백 27
+            Image(cocktail.cocktailIcon)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 150, height: 150)
+                .cornerRadius(10).frame(width: UIScreen.screenWidth - horizontalSpace*2, height: 300) // 양쪽 여백 27
             
             
             ScrollView(.horizontal, showsIndicators : false) {

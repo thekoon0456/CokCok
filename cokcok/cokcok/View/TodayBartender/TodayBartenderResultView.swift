@@ -12,9 +12,9 @@ import FirebaseAuth
 let horizontalSpace: CGFloat = 27
 let targetCocktailList : [(image : String, name : String)] = [
     ("",""),
-    ("https://w.namu.la/s/9dc266954dda0acbb75a16f363ab4908d0e7071dfe4756ce6757cbcb53f1de7afcdafcb0411298c29bba732fd71b7964ea31e156e4968feaf05f6995936dbe59ba0551d826dc387a5120d98d581bf905240a0ff1222ea6728ed6e5abd69ed8613c98a22888806fb5f4a7a6065c54d17d","사이드카"),
-    ("https://w.namu.la/s/11cc356e3c1dc51471ec972952394ce95c1d5e48e88595fb77df2cdc7f1465e0864b65a0e13a88ec51c489b6968bdf1e6d20f484b2e9c301cef9aafcd3245074cc1bb9e5231fe13220fda7d33a34050dfb9b00299fffc5f0fce5e87c38a8f88aa6f725e3c42ab560cecbbe1ef485dfd5","더티마더"),
-    ("https://w.namu.la/s/30d795fc7724eb53c08ef13897f26f0fa8fb4b2a469ade76fe4d785aa68bcc02fe9ed62fe4ec6266727058670f6f2ee1c24926bac7efc6d91fa30b48598e679d2c3e6203bc997d13c290cc7d5bace48ad2c535bd31e8f8ac6be2e78f92d179774354592ff92434b2383c9620aacfd986","올드패션드")
+    ("sideCar","사이드카"),
+    ("dirtyMother","더티마더"),
+    ("oldFashioned","올드패션드")
 ]
 
 
@@ -64,17 +64,11 @@ struct TodayBartenderResultView: View {
                 HStack {
                     ForEach(1...3, id:\.self) { index in
                         VStack {
-                            
-                            AsyncImage(url: URL(string: targetCocktailList[index].image)) { image in
-                                image
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(width: 100, height: 100) // 양쪽 여백 27
-                                    .clipped()
-                                    .cornerRadius(10)
-                            } placeholder: {
-                                ProgressView()
-                            }.frame(width: 100, height: 100) // 양쪽 여백 27
+                            Image(targetCocktailList[index].0)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 76, height: 76)
+                                .cornerRadius(10).frame(width: 100, height: 100) // 양쪽 여백 27
                             
 //                            AsyncImage(url : URL(string : targetCocktailList[index].0))
 //
