@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "jackCock.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "jackCock.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

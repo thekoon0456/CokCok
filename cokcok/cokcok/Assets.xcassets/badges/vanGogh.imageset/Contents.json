@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "vanGogh.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "vanGogh.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

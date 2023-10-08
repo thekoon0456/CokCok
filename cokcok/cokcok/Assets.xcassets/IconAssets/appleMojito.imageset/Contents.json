@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "appleMojito.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "appleMojito.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

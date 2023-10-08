@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "sideCar.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "sideCar.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

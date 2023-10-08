@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "moreThanTen_disabled.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "moreThanTen_disabled.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

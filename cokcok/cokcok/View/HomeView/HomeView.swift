@@ -42,7 +42,9 @@ struct HomeView: View {
                 Spacer()
             }
             .padding()
+            
             Spacer()
+            
             if cocktail != nil {
                 VStack {
                     HStack {
@@ -55,7 +57,9 @@ struct HomeView: View {
                     HomeRecommendCard(cocktail: cocktail!)
                         .frame(width: UIScreen.screenWidth - horizontalSpace*2)
                 }
+                
                 Spacer()
+                
                 Button {
                     isShowing = true
                 } label: {

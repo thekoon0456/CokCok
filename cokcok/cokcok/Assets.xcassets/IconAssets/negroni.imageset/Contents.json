@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "negroni.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "negroni.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "moscowMule.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "moscowMule.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

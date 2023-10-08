@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "russianCocktail_disabled.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "russianCocktail_disabled.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

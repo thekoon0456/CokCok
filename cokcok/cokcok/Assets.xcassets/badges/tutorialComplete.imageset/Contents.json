@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "tutorialComplete.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "tutorialComplete.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

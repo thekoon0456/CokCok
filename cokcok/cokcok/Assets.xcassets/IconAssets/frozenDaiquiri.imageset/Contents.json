@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "frozenDaiquiri.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "frozenDaiquiri.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

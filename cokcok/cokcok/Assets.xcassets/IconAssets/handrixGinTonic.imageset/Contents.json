@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "handrixGinTonic.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "handrixGinTonic.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

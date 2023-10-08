@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "midoriSour.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "midoriSour.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

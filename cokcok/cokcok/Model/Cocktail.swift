@@ -172,7 +172,6 @@ enum CocktailName: String, Codable {
 			return "amarettoSour"
 		case .chinaBlue:
 			return "chinaBlue"
-
 		}
 	}
 }

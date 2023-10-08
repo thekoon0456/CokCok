@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "kamikaze.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "kamikaze.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

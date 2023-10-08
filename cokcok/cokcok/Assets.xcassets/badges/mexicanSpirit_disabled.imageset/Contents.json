@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "mexicanSpirit_disabled.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "mexicanSpirit_disabled.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

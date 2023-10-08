@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "ginFizz.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "ginFizz.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

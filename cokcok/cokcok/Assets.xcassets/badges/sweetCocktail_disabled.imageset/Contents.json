@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "sweetCocktail_disabled.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "sweetCocktail_disabled.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
