@@ -67,7 +67,7 @@
 		689C91A82966B53300985FD6 /* TodayBartenderResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayBartenderResultView.swift; sourceTree = "<group>"; };
 		689C91AB2966C10B00985FD6 /* UIScreen + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen + Extension.swift"; sourceTree = "<group>"; };
 		689C91AD2966F1EB00985FD6 /* CocktailDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailView.swift; sourceTree = "<group>"; };
-		689C91AF2966F60C00985FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		689C91AF2966F60C00985FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68C30AE129673FAC00928030 /* TodayBartenderStep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayBartenderStep2View.swift; sourceTree = "<group>"; };
 		68C30AE329673FC000928030 /* TodayBartenderStep3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayBartenderStep3View.swift; sourceTree = "<group>"; };
 		68C30AE529673FDB00928030 /* TodayBartenderStep4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayBartenderStep4View.swift; sourceTree = "<group>"; };
@@ -166,15 +166,13 @@
 			isa = PBXGroup;
 			children = (
 				6EB27E67296695D800C4FC16 /* cokcokApp.swift */,
-				689C91AA2966C0F500985FD6 /* Extension */,
-				6EB27E782966974E00C4FC16 /* UIConfig */,
-				6EB27E772966973900C4FC16 /* View */,
-				6EB27E762966973200C4FC16 /* ViewModel */,
 				6EB27E752966972C00C4FC16 /* Model */,
-				6EB27E6B296695DA00C4FC16 /* Assets.xcassets */,
-				7C7E8BD82AA5B0F400B5822E /* GoogleService-Info.plist */,
+				6EB27E762966973200C4FC16 /* ViewModel */,
+				6EB27E772966973900C4FC16 /* View */,
+				6EB27E782966974E00C4FC16 /* UIConfig */,
+				689C91AA2966C0F500985FD6 /* Extension */,
+				7C6DCD1A2AF7AB8E00C94DD4 /* Resource */,
 				689C91AF2966F60C00985FD6 /* Info.plist */,
-				7C49B2212967A4A50020C0B2 /* cokcok.json */,
 				6EB27E6D296695DA00C4FC16 /* Preview Content */,
 			);
 			path = cokcok;
@@ -289,6 +287,16 @@
 				6EB27E992966A43F00C4FC16 /* RegisterView.swift */,
 			);
 			path = AuthenticationView;
+			sourceTree = "<group>";
+		};
+		7C6DCD1A2AF7AB8E00C94DD4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6EB27E6B296695DA00C4FC16 /* Assets.xcassets */,
+				7C49B2212967A4A50020C0B2 /* cokcok.json */,
+				7C7E8BD82AA5B0F400B5822E /* GoogleService-Info.plist */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

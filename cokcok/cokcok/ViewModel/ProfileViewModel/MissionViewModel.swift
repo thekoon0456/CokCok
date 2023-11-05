@@ -28,7 +28,7 @@ final class MissionViewModel: ObservableObject {
 		"vanGogh",
 		"classicCocktails",
 		"mexicanSpirit",
-		"moreThanTen",
+		"moreThanTen"
 	]
 	
 	@MainActor
