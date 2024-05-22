@@ -6,6 +6,11 @@
 
 ---
 
+## 📱스크린샷
+<div align="center">
+<img src="https://github.com/thekoon0456/CokCok_Refactor/assets/106993057/97dd21ab-2839-4ad6-9ab0-d24f84217354" width="1000">
+</div>
+
 ## ✨ 앱 소개(ADS)
 
 - 이 앱은 칵테일을 처음 접하거나 관심 있는 사용자에게 각자 취향에 맞는 술을 추천해 주고, 사용자의 취향에 맞는 칵테일을 찾아갈 수 있도록 도와주는 '퍼스널 칵테일 큐레이팅' 앱입니다.
